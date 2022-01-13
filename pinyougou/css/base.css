@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+/* 去掉前面的小点儿 */
+li {
+    list-style: none;
+}
+
+/* 去掉图片下面的空白 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* 按钮变小手 */
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+button,
+input {
+    font-family: Arial, Helvetica, sans-serif ;
+    border: 0;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5;
+    color: #666;
+}
+.hide,
+.none {
+    display: none;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
